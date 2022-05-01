@@ -8,17 +8,17 @@ Next step is getting the weather for each city. This code takes a long time to r
 #### Part 2: Filtering Cities via User Request and Gathering Hotel Data
 What good is it to suggest cities the user has no interest in going? In this case, the list is filtered by temperature, but it can be easily refactored to include all of the different metrics of weather. Now we can gather hotel data for each of the preferred destinations[^2] and visualize the different cities via the gmaps module:
 
-![map](WeatherPy_vacation_map.PNG)
+![map](/Vacation_Search/WeatherPy_vacation_map.PNG)
 
 Each marker also includes a snippet of the weather in the city. 
 #### Part 3: Creating a Travel Itinerary Map
 Now comes the fun part: creating a travel plan for the client! This was done manually by choosing four cities in close proximity:
 
-![cities](WeatherPy_travel_map_markers.PNG)
+![cities](/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
 
 And then creating a travel path with a directions layer on the map.
 
-![route](WeatherPy_travel_map.PNG)
+![route](/Vacation_Itinerary/WeatherPy_travel_map.PNG)
 
 With cities and hotels picked out, all that's left to do is hop on a plane!
 ## Improvements
