@@ -22,7 +22,7 @@ And then creating a travel path with a directions layer on the map.
 
 With cities and hotels picked out, all that's left to do is hop on a plane!
 ## Improvements
-The code is slow, particularly during the API requests. This would be sped up with paid APIs or by not gathering new cities every time the code was ran. Also adding more filtering criteria would help narrow down the cities. Finally, getting more hotel info, like price or rating, as well as airport information would be a huge bonus to this fairly basic application
+The code is slow, particularly during the API requests. This would be sped up with paid APIs or by not gathering new cities every time the code was ran. Since certain cities are overrepresented, a better generation of random coordinates would be a benefit, though difficult to implement. Also adding more filtering criteria would help narrow down the cities. Finally, getting more hotel info, like price or rating, as well as airport information would be a huge bonus to this fairly basic application
 
 [^1]: If the goal was to look at more cities, the number of coordinates generated would need to increase more than you would expect. Because the Earth has many places      with no cities (see: ocean), duplicates will pop up more frequently. Cities on the coast and cities in extreme northern or southern latitude will be overrepresented,    since the Earth is a sphere and has a smaller radius at those latitudes.
 [^2]: I added a print statement for the hotel API request because when I first ran it it took nearly a minute for each pull, and I needed to double check that it was        running. This is entirely unnecessary.
